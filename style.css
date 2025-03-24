@@ -22,7 +22,7 @@ body {
 
 
     background-color: rgba(11, 29, 38, 1);
-    background-image: url(./картинки/background.png);
+    background-image: url(картинки/background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
