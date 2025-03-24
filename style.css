@@ -1,0 +1,310 @@
+@import url('https://fonts.cdnfonts.com/css/chronicle-display');
+@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+
+/* font-family: 'Chronicle Display', sans-serif; */
+/* font-family: 'SVN-Gilroy', sans-serif; */
+
+/* 
+1. Header
+2. Block1 
+3. Gradient
+4. All_Block
+5. Footer
+*/
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+    position: relative;
+
+
+    background-color: rgba(11, 29, 38, 1);
+    background-image: url(/картинки/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+body::before {
+    content: " ";
+    width: 100%;
+    height: 38%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    background-image: linear-gradient(transparent, rgba(11, 29, 38, 1));
+}
+
+
+main {
+    position: relative;
+}
+
+/* 1. Header */
+/* #region */
+
+header {
+    padding: 20px 40px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    width: 270px;
+}
+
+.menu_link {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.registration>p {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* #endregion */
+
+/* 2. BLock1 */
+/* #region */
+
+
+.block1 {
+    padding: 160px 350px 760px;
+
+}
+
+.top_text {
+    display: flex;
+    align-items: center;
+
+    width: 450px;
+}
+
+.line {
+    width: 80px;
+    height: 1px;
+    background-color: rgba(251, 215, 132, 1);
+}
+
+.text {
+
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-align: left;
+    color: rgba(251, 215, 132, 1);
+
+    padding-left: 20px;
+}
+
+.title_bottom {
+    font-family: 'Chronicle Display', sans-serif;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+    margin: 0px;
+}
+
+/* #endregion */
+
+
+.gradient {
+    position: absolute;
+    top: 795px;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(11, 29, 38, 0), rgba(11, 29, 38, 1));
+}
+
+/* #endregion */
+
+/* 4. All_Block */
+/* #region */
+
+.block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 150px 200px;
+}
+
+.block_text {
+    position: relative;
+    padding-left: 130px;
+}
+
+.number {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 240px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.104);
+
+    position: absolute;
+    left: -10px;
+    top: -115px;
+}
+
+.center_text {
+    font-family: 'Chronicle Display', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bottom_text {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.read_more {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.read_more>p {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(251, 215, 132, 1);
+
+    padding-right: 15px;
+}
+
+.img_block {
+    width: 400px;
+}
+
+/* #endregion */
+
+/* 5. Footer */
+/* #region */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px 80px;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_text {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.copyright {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.567);
+    margin: 0px;
+}
+
+.footer_right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_more {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(251, 215, 132, 1);
+    margin-top: 0px;
+}
+
+.more_link {
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+/* #endregion */
